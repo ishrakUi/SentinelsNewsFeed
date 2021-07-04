@@ -1,6 +1,7 @@
 # SentinellsNewsFeed
 video link: https://drive.google.com/file/d/1Skdug4ZRNb-eovT9aIBNVI1JIJiAzcak/view?usp=sharing
 
+<img src="https://cdn.discordapp.com/attachments/657576185320177675/861302431991595058/Screenshot_2021-07-04_234649.jpg" />
 ## iFeed
 
 Description :
