@@ -7,7 +7,7 @@ video link: https://drive.google.com/file/d/1Skdug4ZRNb-eovT9aIBNVI1JIJiAzcak/vi
 ## iFeeds
 
 Description :
-ifeed is a complete news feed solution where one user can share their thoughts and can give a visual touch to one’s post. The goal of this newsfeed solution is to connect people and introduce them to each other’s thoughts where one can see the world in a new way. 
+ifeeds is a complete news feed solution where one user can share their thoughts and can give a visual touch to one’s post. The goal of this newsfeed solution is to connect people and introduce them to each other’s thoughts where one can see the world in a new way. 
 
 We are team sentinel. Let us introduce our news presenting solution "iFeed".
 Here user can: 
