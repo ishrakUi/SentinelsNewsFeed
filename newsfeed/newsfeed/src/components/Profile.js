@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useHistory } from 'react-router'
 import {  Redirect } from 'react-router-dom'
 import axios from 'axios'
-const Profile = ({user, setUser,loginStatus}) => {
+const Profile = ({user, loginStatus, getUser}) => {
 
 
     const[image, setImage]=useState()
@@ -14,9 +14,9 @@ const Profile = ({user, setUser,loginStatus}) => {
 
     const [about, setAbout]=useState(user.about)
     const history=useHistory(); 
-    console.log(loginStatus)
+
      if(loginStatus==0){
-            console.log(loginStatus)
+      
             return <Redirect to="/"/>
     }
     const edituser=(e)=>{
@@ -29,12 +29,13 @@ const Profile = ({user, setUser,loginStatus}) => {
             data.append("about", about)
             data.append("token", 'reguser')
             data.append("image", image)
+           
+            
         
         axios.post(`http://localhost:9999/edit/user/${localStorage.getItem("user")}`, data).then(
             res=>{
-                console.log(res)
-              setUser(res.data.result[0])
-              history.push('/')
+                getUser(user.id)
+              return <Redirect to="/"/>
             }
         ).catch(
             err=>{

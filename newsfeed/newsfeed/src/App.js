@@ -53,7 +53,7 @@ loadStatus()
 
        <Route path="/profile" exact component={()=>(
          <div className="lg:px-48 md:px-16 sm:px-20">
-           <Profile user={user} setUser={setUser} loginStatus={loginStatus} />
+           <Profile user={user} setUser={setUser} getUser={getUser} loginStatus={loginStatus} />
            </div>
         )} />
       
